@@ -7,7 +7,7 @@ const ProfileSection = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis ipsa quibusdam fugiat odio aliquid libero nobis cupiditate, quam iste velit nesciunt placeat quaerat vel nulla suscipit dolore reprehenderit totam.</p>
           </div>
           <div className='w-50'>
-            <p>hello world</p>
+            <p>hello ejhay ejhay</p>
           </div>
         </div>
   )
