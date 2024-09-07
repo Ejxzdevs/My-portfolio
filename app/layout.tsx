@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html data-theme="dim" lang="en" >
       <body>
-      {/* <Navbar/> */}
+      <Navbar/>
           {children}
       </body>
     </html>
