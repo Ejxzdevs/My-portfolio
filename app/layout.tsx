@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html data-theme="dim" lang="en" >
+    <html data-theme="dracula" lang="en" >
       <body>
       <Navbar/>
           {children}
