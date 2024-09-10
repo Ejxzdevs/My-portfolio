@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Guerrilla&display=swap');
+
+/* Profile components */
+.welcomeContainer{
+    // border: white solid 2px;
+    & h1{
+        font-size: 1.2rem;
+        margin-bottom: .2rem;
+        letter-spacing: 1px;
+
+    }
+    & label {
+        font-size: 3rem ;
+        letter-spacing: .5rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        font-family: "Signika", sans-serif;
+        font-optical-sizing: auto;
+    }
+    & p {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      
+    }
+}
+
+
+.imageContainer {
+    // border: white solid 2px;
+    & .imageStyle{
+     
+    }
+  
+
+    
+}
