@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Guerrilla&display=swap");
 /* Profile components */
 .welcomeContainer h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 0.2rem;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .welcomeContainer label {
   font-size: 3rem;
@@ -15,10 +16,24 @@
   margin-bottom: 1rem;
   font-family: "Signika", sans-serif;
   font-optical-sizing: auto;
+  cursor: pointer;
+}
+.welcomeContainer .spanStyle {
+  color: #2af514;
 }
 .welcomeContainer p {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.imageContainer .imageStyle {
+  margin-left: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: dashed 0.3rem #2af514;
 }/*# sourceMappingURL=component.module.css.map */
