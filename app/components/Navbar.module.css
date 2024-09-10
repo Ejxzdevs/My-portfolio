@@ -3,7 +3,7 @@
   height: 5rem;
 }
 .headerContainer .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Pacifico", cursive;
   font-weight: 400;
   letter-spacing: 0.3rem;
@@ -13,5 +13,26 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
+  font-weight: 400;
+}
+.headerContainer .nav .linkStyle {
+  color: white;
+  position: relative;
+}
+.headerContainer .nav .linkStyle:hover {
+  color: #2af514;
+  transition: color 0.4s ease-in-out;
+}
+.headerContainer .nav .linkStyle:after {
+  content: "";
+  position: absolute;
+  background-color: #2af514;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.4s ease-in-out;
+}
+.headerContainer .nav .linkStyle:hover:after {
+  width: 100%;
 }/*# sourceMappingURL=Navbar.module.css.map */
