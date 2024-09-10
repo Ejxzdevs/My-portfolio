@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+
+
+html, body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  height: 120vh;
+  padding: 0 5rem;
+  overflow-x: hidden;
+  overflow-Y: auto;
+  font-size: 14px;
+  height: auto;
 }
+
+.mainContainer{
+  height: auto;
+  overflow: hidden;
+}
+
+
+
 
 
