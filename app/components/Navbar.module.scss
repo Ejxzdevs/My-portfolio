@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.headerContainer{
+    height: 5rem;
+
+    & .logo{
+        font-size: 2rem;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: .3rem;
+    }
+
+    & .nav{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+ 
+    
+}
+
+
+
