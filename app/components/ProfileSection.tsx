@@ -17,7 +17,7 @@ const ProfileSection = () => {
               <Image
                 src="/anime.jpg"
                 alt='my image'
-                width={250}
+                width={220}
                 height={220}
                 className={styles.imageStyle}
               />
