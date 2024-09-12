@@ -3,7 +3,7 @@ import styles from './component.module.css';
 import Image from 'next/image';
 
 
-const ProfileSection = () => {
+const profileSection = () => {
   return (
         <div className="grid grid-cols-1 sm:grid sm:grid-cols-1 lg:grid lg:grid-cols-2 min-h-full pt-8 ">
           <div className={ `${styles.welcomeContainer} flex flex-col py-5 gap-y-8 sm:gap-y-3 lg:gap-y-3`} >
@@ -26,4 +26,4 @@ const ProfileSection = () => {
   )
 }
 
-export default ProfileSection
+export default profileSection
