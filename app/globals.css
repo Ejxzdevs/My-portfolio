@@ -28,27 +28,27 @@ html, body {
   background-color: rgb(48, 100, 104);
 }
 .profileContainer{
-  background-color: red;
+  /* background-color: red; */
   height: 83vh;
   margin-top: 5rem;
   
 }
 .aboutContainer{
-  background-color: pink;
+  /* background-color: pink; */
   height: 100vh;
   padding-top: 5rem;
 }
 .skillsContainer{
-  background-color: yellow;
-  height: 85vh;
+  /* background-color: yellow; */
+  height: 100vh;
 }
 .projectsContainer{
-  background-color: blue;
-  height: 85vh;
+  /* background-color: blue; */
+  height: 100vh;
 }
 .contactContainer{
-  background-color: green;
-  height: 85vh;
+  /* background-color: green; */
+  height: 100vh;
 
 }
 

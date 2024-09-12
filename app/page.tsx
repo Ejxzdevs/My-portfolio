@@ -12,16 +12,16 @@ export default function Home() {
           <div id="A" className="profileContainer">
             <ProfileSection/>
           </div>
-          <div id="B" className="aboutContainer">
+          <div id="about" className="aboutContainer">
             <AboutSection/>
           </div>
-          <div id="C" className="skillsContainer">
+          <div id="skills" className="skillsContainer">
             <SkillsSection/>
           </div>
-          <div id="D" className="projectsContainer">
+          <div id="projects" className="projectsContainer">
             project
           </div>
-          <div id="D" className="contactContainer">
+          <div id="contact" className="contactContainer">
             contact
           </div>
       </main>
