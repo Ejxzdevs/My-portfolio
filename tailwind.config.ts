@@ -22,7 +22,8 @@ const config: Config = {
       '2xl': '1536px',
     }
   },
-  plugins:[require('daisyui')],
+  
+  plugins:[require('daisyui'),require('autoprefixer'),],
   daisyui: {
     themes: ["coffee","fantasy","forest","dracula","nord","dim"],
   },
