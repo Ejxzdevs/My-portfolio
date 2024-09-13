@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="scroll-smooth" data-theme="dracula" lang="en" >
+    <html data-theme="dracula" className="scroll-smooth" lang="en" >
       <body>
           {children}
       </body>

@@ -3,46 +3,64 @@
 
 
 /* Profile components */
-.welcomeContainer{
-    // border: white solid 2px;
-    & h1{
-        font-size: 1rem;
-        margin-bottom: .2rem;
-        letter-spacing: 1px;
-        cursor: pointer;
-    }
-    & label {
-        font-size: 3rem ;
-        letter-spacing: .5rem;
-        gap: 1rem;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1rem;
-        font-family: "Signika", sans-serif;
-        font-optical-sizing: auto;
-        cursor: pointer;
-    }
-
-    .spanStyle{
-        color: #2af514;
-    }
-    & p {
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .9rem;
-        cursor: pointer;
-    }
-}
-
-
-.imageContainer {
-    & .imageStyle{
-        margin-left: auto;
-        border-radius: 50%;
-        padding: .5rem;
-        border: dashed .3rem #2af514;
-    }
+.profileContainer {
+    // height: 100vh;
+    overflow: hidden;
+        
+    & .welcomeContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            padding: 5rem;
+            
     
+            & h1{
+                font-size: 1rem;
+                margin-bottom: .2rem;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+
+            & label {
+                font-size: 3rem ;
+                letter-spacing: .5rem;
+                gap: 1rem;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+                font-family: "Signika", sans-serif;
+                font-optical-sizing: auto;
+                cursor: pointer;
+            }
+
+            .spanStyle{
+                color: #2af514;
+            }
+            & p {
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-size: .9rem;
+                cursor: pointer;
+            }
+        }
+
+
+        .imageContainer {
+          
+            & .imageStyle{
+                border-radius: 50%;
+                padding: .5rem;
+                border: dashed .3rem #2af514;
+            }
+            
+        }
+    }
+// Skills components
+.aboutkContainer{
+    background-color: yellow;
+    height: 90vh;
+
 }
