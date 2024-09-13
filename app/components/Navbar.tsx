@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <nav className={`${styles.nav}`} >
         <Link href="#about" className={`${styles.linkStyle} hidden sm:flex lg:flex`}>About</Link>
-        <Link href="#skills" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Skills</Link>
+        <Link href="#skills" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Services</Link>
         <Link href="#projects" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Projects</Link>
         <Link href="#contact" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Contact</Link>
       </nav>

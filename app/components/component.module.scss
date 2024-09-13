@@ -58,9 +58,54 @@
             
         }
     }
-// Skills components
-.aboutkContainer{
-    background-color: yellow;
-    height: 90vh;
+// ABOUT components
+.aboutContainer{
+    background-color: pink;
+}
+
+// SKILLS components
+.skillsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: grey;
+   
+
+    & .techstackContainer{
+        width: 85%;
+        margin-top: 5rem;
+        // background-color: #2af514;
+
+        & div {
+            background-color: white;
+
+            & h1 {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            & div {
+                width: 100%;
+                padding: 1rem;
+                color: black;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 4px;
+                overflow: hidden;
+                cursor: pointer;
+
+                & img {
+                    height: 30px;
+                    border: solid grey 1px;
+                    border-radius: 50%;
+                    padding: 3px;
+                    margin-top: .2rem;
+                }
+            }
+        }
+    }
+ 
 
 }

@@ -45,7 +45,42 @@
   border: dashed 0.3rem #2af514;
 }
 
-.aboutkContainer {
-  background-color: yellow;
-  height: 90vh;
+.aboutContainer {
+  background-color: pink;
+}
+
+.skillsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillsContainer .techstackContainer {
+  width: 85%;
+  margin-top: 5rem;
+}
+.skillsContainer .techstackContainer div {
+  background-color: white;
+}
+.skillsContainer .techstackContainer div h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.skillsContainer .techstackContainer div div {
+  width: 100%;
+  padding: 1rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.skillsContainer .techstackContainer div div img {
+  height: 30px;
+  border: solid grey 1px;
+  border-radius: 50%;
+  padding: 3px;
+  margin-top: 0.2rem;
 }/*# sourceMappingURL=component.module.css.map */
