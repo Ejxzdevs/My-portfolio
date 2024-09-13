@@ -23,7 +23,7 @@ const config: Config = {
     }
   },
   
-  plugins:[require('daisyui'),require('autoprefixer'),],
+  plugins:[require('daisyui'),require('autoprefixer')],
   daisyui: {
     themes: ["coffee","fantasy","forest","dracula","nord","dim"],
   },
