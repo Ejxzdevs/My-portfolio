@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className={`${styles.headerContainer} grid grid-cols-2 lg:grid lg:grid-cols-2`} >
       <div className='flex items-center'>
-        <Link href="#home" className={`${styles.logo} font-bold hidden sm:flex lg:flex`}>Ejhay</Link>
+        <Link href="#home" ><span className={styles.Logo} >Ejhay</span></Link>
       </div>
       <nav className={`${styles.nav}`} >
         <Link href="#about" className={`${styles.linkStyle} hidden sm:flex lg:flex`}>About</Link>
