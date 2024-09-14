@@ -60,7 +60,76 @@
     }
 // ABOUT components
 .aboutContainer{
-    background-color: pink;
+    
+   
+ 
+
+    & .aboutProfileContainer{
+        display: flex;
+        justify-content: center;
+       
+        
+        
+        
+
+        & .imgAboutContainer{
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        
+        }
+        
+    }
+
+    & .infoContainer{
+        // background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+      
+
+        & h1{
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+
+        & p {
+            
+        }
+
+        & div {
+            // background-color: white;
+            height: 15rem;
+            display: flex;
+            flex-direction: column;
+
+            & .miniNav{
+                display: flex;
+                height: 3rem;
+                flex-direction: row;
+             
+                gap: 1rem;
+                padding-top: .5rem;
+               
+                overflow: hidden;
+
+               & a{
+                text-decoration: underline chartreuse;
+
+                }
+            }
+
+            & .miniContainer{
+                overflow: hidden;
+                & p{
+                    display: flex;
+                    flex-wrap: wrap;
+                    // background-color: #2af514;
+                    height: 20rem;
+                }
+            }
+        }
+    }
 }
 
 // SKILLS components
