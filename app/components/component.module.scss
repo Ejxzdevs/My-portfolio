@@ -4,7 +4,6 @@
 
 /* Profile components */
 .profileContainer {
-    // height: 100vh;
     overflow: hidden;
         
     & .welcomeContainer{
@@ -81,7 +80,6 @@
     }
 
     & .infoContainer{
-        // background-color: yellow;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -93,12 +91,8 @@
             font-size: 2.5rem;
         }
 
-        & p {
-            
-        }
-
         & div {
-            // background-color: white;
+        
             height: 15rem;
             display: flex;
             flex-direction: column;
@@ -124,7 +118,6 @@
                 & p{
                     display: flex;
                     flex-wrap: wrap;
-                    // background-color: #2af514;
                     height: 20rem;
                 }
             }
