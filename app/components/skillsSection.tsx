@@ -49,14 +49,12 @@ const skillsSection = () => {
           <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12  '>
             <h1>Desktop GUI & Console Based</h1>
             <div>
-            <img src="https://img.icons8.com/fluency/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
-            <img src="https://img.icons8.com/fluency/48/python.png" alt="python"/>
-            <img src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
-            <img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
-
+              <img src="https://img.icons8.com/fluency/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+              <img src="https://img.icons8.com/fluency/48/python.png" alt="python"/>
+              <img src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
+              <img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
             </div>
           </div>
-       
       </div>
     </div>
   )
