@@ -77,8 +77,12 @@
   overflow: hidden;
 }
 .aboutContainer .infoContainer div .miniNav a {
-  -webkit-text-decoration: underline chartreuse;
-          text-decoration: underline chartreuse;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.aboutContainer .infoContainer div .miniNav a:active {
+  color: #2af514;
 }
 .aboutContainer .infoContainer div .miniContainer {
   overflow: hidden;

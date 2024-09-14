@@ -1,8 +1,19 @@
-import React from 'react'
+"use client"
+import React from 'react';
+import { useState } from 'react';
 import styles from './component.module.css';
 import Image from 'next/image';
 
 function AboutSection() {
+ 
+  const [job, setJob] = useState<string>('');
+  const [date, setDate] = useState<string>('');
+
+  const handleClick = (text: string,date: string) => {
+    setJob(text);
+    setDate(date);
+  };
+
   return (
     <div id='about' className={`${styles.aboutContainer} h-auto grid grid-cols-1 sm:grid sm:grid-cols-2 sm:h-screen lg:grid lg:grid-cols-2 lg:h-screen`}>
       <div className={ `${styles.aboutProfileContainer} p-10 flex items-center sm:flex sm:items-center sm:p-0 lg:flex lg:items-center lg:p-0 `}>
@@ -22,12 +33,14 @@ function AboutSection() {
               systems and working on various projects.</p>
           <div>
             <div className={`${styles.miniNav} `}>
-              <a href="">Experience</a>
-              <a href="">Certfication</a>
+              <a onClick={() => handleClick('Programmer A','August 18 2022')}>Experiences</a> | 
+              <a onClick={() => handleClick('Content B','sads')}>Certification</a> | 
             </div>
             <div className={`${styles.miniContainer} `}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quibusdam fugiat! Animi, repellat! Animi porro ipsam, ab quidem voluptatem deleniti possimus. Velit ab, magni nemo repellendus amet illo error incidunt?
-                </p>
+                <div>
+                  <p>{job}</p>
+                  <p>{date}</p> 
+                </div>
             </div>
           </div>
        </div>

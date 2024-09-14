@@ -108,18 +108,26 @@
                 overflow: hidden;
 
                & a{
-                text-decoration: underline chartreuse;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1.2rem;
 
+                }
+
+                & a:active{
+                    color: #2af514;
                 }
             }
 
             & .miniContainer{
                 overflow: hidden;
+               
                 & p{
                     display: flex;
                     flex-wrap: wrap;
                     height: 20rem;
                 }
+
             }
         }
     }
