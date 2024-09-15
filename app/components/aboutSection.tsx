@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 function AboutSection() {
  
-  const [experiences, setExperieces] = useState<string>(`<label>Web Developer Intern</label>
-                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;&nbsp;2022&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
+  const [experiences, setExperieces] = useState<string>(` <label>Web Developer Intern</label>
+                  <p><span>RACITELCOM Inc.</span><span>Date: Feb-June 2022</span><span>Location: MacArthur Hwy, Marilao, Bulacan</span></p>
                   <p>Racitelcom Inc. is a telecommunications company offering internet and telephone services for residential and business customers in Meycauayan, Marilao, Bocaue, and Sta. Maria, Bulacan.</p>
                   <p> - Developed a payroll system using PHP, HTML, CSS, JavaScript, and MySQL, ensuring smooth integration with existing systems and user-friendly website interfaces.</p>`);
   const handleClick = (text: string) => {
@@ -35,13 +35,13 @@ function AboutSection() {
           <div>
             <div className={`${styles.miniNav} `}>
               <a onClick={() => handleClick(` <label>Web Developer Intern</label>
-                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;2022&nbsp;&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
+                  <p><span>RACITELCOM Inc.</span><span>Date: Feb-June 2022</span><span>Location: MacArthur Hwy, Marilao, Bulacan</span></p>
                   <p>Racitelcom Inc. is a telecommunications company offering internet and telephone services for residential and business customers in Meycauayan, Marilao, Bocaue, and Sta. Maria, Bulacan.</p>
                   <p> - Developed a payroll system using PHP, HTML, CSS, JavaScript, and MySQL, ensuring smooth integration with existing systems and user-friendly website interfaces.</p>`)}>Experiences</a> | 
               <a onClick={() => handleClick(`
-                <p><span>AWS Cloud Quest: Cloud Practitioner</span>&nbsp;- Amazon Web Services Training and Certification<p>
-                <p><span>Programming (JAVA) NC III</span>&nbsp;- Center for International Industries Competence Corp (CIICC)<p>
-                <p><span>Fullstack web development: CSS JS and PHP Mastery</span>&nbsp;- Udemy<p>
+                <p><span>AWS Cloud Quest: Cloud Practitioner</span>- Amazon Web Services Training and Certification<p>
+                <p><span>Programming (JAVA) NC III</span>- Center for International Industries Competence Corp (CIICC)<p>
+                <p><span>Fullstack web development: CSS JS and PHP Mastery</span>- Udemy<p>
                 `)}>Certification</a> | 
             </div>
             <div className={`${styles.miniContainer} `}>
