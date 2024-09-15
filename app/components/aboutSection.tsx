@@ -7,12 +7,9 @@ import Image from 'next/image';
 function AboutSection() {
  
   const [experiences, setExperieces] = useState<string>(`<label>Web Developer Intern</label>
-                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
+                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;&nbsp;2022&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
                   <p>Racitelcom Inc. is a telecommunications company offering internet and telephone services for residential and business customers in Meycauayan, Marilao, Bocaue, and Sta. Maria, Bulacan.</p>
                   <p> - Developed a payroll system using PHP, HTML, CSS, JavaScript, and MySQL, ensuring smooth integration with existing systems and user-friendly website interfaces.</p>`);
-  
-
-
   const handleClick = (text: string) => {
     setExperieces(text);
     
@@ -38,7 +35,7 @@ function AboutSection() {
           <div>
             <div className={`${styles.miniNav} `}>
               <a onClick={() => handleClick(` <label>Web Developer Intern</label>
-                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
+                  <p><span>RACITELCOM, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Date:</span>&nbsp;Feb - June&nbsp;2022&nbsp;&nbsp;&nbsp;&nbsp;<span>Location:</span>&nbsp;MacArthur Hwy, Marilao, Bulacan</p>
                   <p>Racitelcom Inc. is a telecommunications company offering internet and telephone services for residential and business customers in Meycauayan, Marilao, Bocaue, and Sta. Maria, Bulacan.</p>
                   <p> - Developed a payroll system using PHP, HTML, CSS, JavaScript, and MySQL, ensuring smooth integration with existing systems and user-friendly website interfaces.</p>`)}>Experiences</a> | 
               <a onClick={() => handleClick(`
