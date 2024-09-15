@@ -29,7 +29,7 @@ function AboutSection() {
       </div>
        <div className={`${styles.infoContainer} px-20 `}>
           <h1>About Me</h1>
-          <p>I have a Bachelor's degree in Information Systems and a strong passion for 
+          <p>I have a Bachelor&apos;s degree in Information Systems and a strong passion for 
               programming and technology. I have hands-on experience in developing web 
               systems and working on various projects.</p>
           <div>
