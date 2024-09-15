@@ -88,9 +88,30 @@
   overflow: hidden;
 }
 .aboutContainer .infoContainer div .miniContainer p {
+  color: white;
+}
+.aboutContainer .infoContainer div .miniContainer label {
+  font-weight: 600;
+  color: white;
+}
+.aboutContainer .infoContainer div .miniContainer .achievementContainer {
+  height: 11rem;
+  width: inherit;
+  height: inherit;
+  border-radius: 10px;
+  gap: 0.3rem;
+}
+.aboutContainer .infoContainer div .miniContainer .achievementContainer label {
+  font-size: 1rem;
+}
+.aboutContainer .infoContainer div .miniContainer .achievementContainer p {
+  font-size: 0.8rem;
   display: flex;
-  flex-wrap: wrap;
-  height: 20rem;
+  flex-direction: row;
+  font-weight: 400;
+}
+.aboutContainer .infoContainer div .miniContainer .achievementContainer p span {
+  font-weight: 600;
 }
 
 .skillsContainer {

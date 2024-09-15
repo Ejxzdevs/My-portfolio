@@ -121,11 +121,41 @@
 
             & .miniContainer{
                 overflow: hidden;
-               
+                // background-color: red;
+
                 & p{
-                    display: flex;
-                    flex-wrap: wrap;
-                    height: 20rem;
+                    color: white;
+                }
+
+                & label {
+                    font-weight: 600;
+                    color: white;
+                }
+                
+                & .achievementContainer{
+                    // background-color: white;
+                    height: 11rem;
+                    width: inherit;
+                    height: inherit;
+                    border-radius: 10px;
+                    gap: .3rem;
+                
+                    
+                    & label {
+                        font-size: 1rem;
+                    }
+
+                    & p {
+                        font-size: .8rem;
+                        display: flex;
+                        flex-direction: row;
+                        font-weight: 400;
+                        
+
+                        & span {
+                            font-weight: 600;
+                        }
+                    }
                 }
 
             }
