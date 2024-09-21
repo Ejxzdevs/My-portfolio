@@ -18,7 +18,7 @@ function AboutSection() {
   return (
     <div id='about' className={`${styles.aboutContainer} h-auto grid grid-cols-1 sm:grid sm:grid-cols-2 sm:h-screen lg:grid lg:grid-cols-2 lg:h-screen`}>
       <div className={ `${styles.aboutProfileContainer} p-10 flex items-center sm:flex sm:items-center sm:p-0 lg:flex lg:items-center lg:p-0 `}>
-          <div className={`${styles.imgAboutContainer} bg-customBg p-8 h-auto sm:p-0 sm:h-72 sm:bg-transparent lg:h-96 lg:mt-5 lg:bg-transparent lg:p-0 `}>
+          <div className={`${styles.imgAboutContainer} bg-customBg p-8 h-auto sm:p-0 sm:h-72 sm:pl-8 sm:bg-transparent lg:h-96 lg:mt-5 lg:bg-transparent lg:p-0 `}>
           <Image
                  src="/about.jpg"
                  alt='my image'
