@@ -2,6 +2,26 @@ import React from 'react'
 import styles from './component.module.css';
 import Image from 'next/image';
 
+const icons = {
+  webDev: [
+    { src: '/icons/Webdev/html.png', alt: 'HTML' },
+    { src: '/icons/Webdev/css.png', alt: 'CSS' },
+    { src: '/icons/Webdev/php.png', alt: 'php' },
+    { src: '/icons/Webdev/js.png', alt: 'JavaScript' },
+    { src: '/icons/Webdev/sass.png', alt: 'sass' },
+    { src: '/icons/Webdev/bootstrap.png', alt: 'bootstrap' },
+    { src: '/icons/Webdev/tailwind.png', alt: 'tailwind' },
+    { src: '/icons/Webdev/laravel.png', alt: 'laravel' },
+    { src: '/icons/Webdev/react.png', alt: 'react' },
+    { src: '/icons/Webdev/mysql.png', alt: 'mysql' },
+   
+  ],
+  mobileDev: [
+    { src: '/icons/Mobiledev/android.png', alt: 'Android' },
+    { src: '/icons/Mobiledev/ios.png', alt: 'iOS' },
+  ],
+  // Add more categories and icons here
+};// Add more icons here
 
 
 const skillsSection = () => {
@@ -11,21 +31,16 @@ const skillsSection = () => {
           <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12 '>
             <h1>Web Development</h1>
             <div>
-              <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
-              <img src="https://img.icons8.com/officel/80/php-logo.png" alt="php-logo"/>
-              <img src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
-              <img src="https://img.icons8.com/color/48/sass.png" alt="sass"/>
-              <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
-              <img src="https://img.icons8.com/officel/80/react.png" alt="react"/>
-              <img src="https://img.icons8.com/color/48/nextjs.png" alt="nextjs"/>
-              <img src="https://img.icons8.com/fluency/48/laravel.png" alt="laravel"/>
-              <img src="https://img.icons8.com/color/48/tailwindcss.png" alt="tailwindcss"/>
-              <img src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/>
-              <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
-              <img src="https://img.icons8.com/fluency/48/maria-db.png" alt="maria-db"/>
-              <img src="https://img.icons8.com/ios-filled/50/sqlite.png" alt="sqlite"/>
-              <img src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
-              
+            {icons.webDev.map((icon, index) => (
+              <Image
+                key={index}
+                src={icon.src}
+                alt={icon.alt}
+                width={220}
+                height={220}
+                className={styles.imageStyle}
+              />
+            ))}
             </div>
           </div>
           <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12  '>

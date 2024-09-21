@@ -146,9 +146,10 @@
   cursor: pointer;
 }
 .skillsContainer .techstackContainer div div img {
-  height: 30px;
+  height: 35px;
+  width: 35px;
   border: solid grey 1px;
-  border-radius: 50%;
+  border-radius: 5px;
   padding: 3px;
   margin-top: 0.2rem;
 }/*# sourceMappingURL=component.module.css.map */

@@ -10,7 +10,7 @@ const profileSection = () => {
             <h1 className={ `${styles.forte} `} >Web Developer</h1>
             <label className='text-3xl'><span><span className={styles.spanStyle} >Hello</span> I&apos;m</span><strong>Ejhay Gofredo</strong></label>
             <p>I have a Bachelor&apos;s degree in Information Systems and a strong passion for 
-              programming and technology. I have hands-on experience in developing web 
+              programming and technology. I have hancds-on experience in developing web 
               systems and working on various projects.</p>
           </div>
           <div className={ `${styles.imageContainer} flex items-center justify-center`} >
