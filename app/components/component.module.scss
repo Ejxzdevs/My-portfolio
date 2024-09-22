@@ -216,3 +216,15 @@
  
 
 }
+
+.projectContainer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+  
+    & img {
+        height: 180px;
+        width: 100%;
+        padding: 1rem;
+    }
+}
