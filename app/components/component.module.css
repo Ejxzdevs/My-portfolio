@@ -45,6 +45,10 @@
   border: dashed 0.3rem #2af514;
 }
 
+.aboutContainer {
+  background-color: white;
+  color: black;
+}
 .aboutContainer .aboutProfileContainer {
   display: flex;
   justify-content: center;
@@ -88,12 +92,8 @@
 .aboutContainer .infoContainer div .miniContainer {
   overflow: hidden;
 }
-.aboutContainer .infoContainer div .miniContainer p {
-  color: white;
-}
 .aboutContainer .infoContainer div .miniContainer label {
   font-weight: 600;
-  color: white;
 }
 .aboutContainer .infoContainer div .miniContainer .achievementContainer {
   height: 11rem;
