@@ -221,10 +221,28 @@
     background-color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
   
-    & img {
-        height: 180px;
-        width: 100%;
-        padding: 1rem;
+    & .cardContainer {
+        height: auto;
+        width: 330px;
+
+
+        & img {
+            height: 200px;
+            width: 100%;
+            padding: 1rem;
+        }
+
+        & label {
+            font-size: 1.3rem;
+        }
+        & p{
+            font-size: 12px;
+        }
     }
+
+   
 }

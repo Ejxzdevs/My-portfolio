@@ -4,39 +4,52 @@ import Image from 'next/image';
 
 const projects = {
     items : [
-      { src: '/projects/Enrollment.png', alt: 'Enrollment System' },
-      { src: '/projects/Payroll.png', alt: 'Payroll System' },
-      { src: '/projects/POS.png', alt: 'Point of Sale' },
+      { src: '/projects/Enrollment.png', 
+        alt: 'Enrollment System' , 
+        name: 'BestLink Admission & Enrollment System'  , 
+        techstack: 'HTML CSS PHP JS MYSQL' , 
+        description: 'The Bestlink Enrollment and Admission System streamlines the process of applying, reviewing, and registering students into educational institutions by managing applications, tracking student data, and simplifying enrollment workflows.' },
+      { src: '/projects/Payroll.png', 
+        alt: 'Payroll System' , 
+        name: 'Generic Payroll System with Mobile Application '  , 
+        techstack: 'HTML CSS PHP JS JQUERY MYSQL JAVA', 
+        description: 'The Generic Payroll System streamlines the payroll process for employees by integrating biometric data, featuring a user-friendly interface and a mobile application with a web view for easy time entry and salary check.'},
+      { src: '/projects/POS.png', 
+        alt: 'Point of Sale', 
+        name: 'Point of Sale' , 
+        techstack: 'HTML JS BOOTSTRAP' ,
+        description: 'A Simple Point of Sale (POS) system designed specifically for ordering, making it easy for customers to list and manage their orders efficiently.'
+       },
     ]
 }
 
 const projectSection = () => {
   return (
       <div id='projects' className={`${styles.projectContainer} min-h-screen`}>
-         {projects.items.map((icon, index) => (
-          <div className="max-w-[720px] mx-auto">
-              <div className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-customBg bg-clip-border text-white shadow-md">
-                  <div className="relative m-0 overflow-hidden  bg-transparent rounded-none shadow-none bg-clip-border">
+         {projects.items.map((project, index) => (
+          <div className="max-w-[720px] ">
+              <div className={` ${styles.cardContainer} relative flex flex-col overflow-hidden rounded-xl bg-customBg bg-clip-border text-white shadow-md `}>
+                  <div className="relative ">
                   <Image
                       key={index}
-                      src={icon.src}
-                      alt={icon.alt}
+                      src={project.src}
+                      alt={project.alt}
                       width={220}
                       height={220}
                       className={styles.imageStyle}
               />
                   </div>
-                  <div className="p-6">
-                      <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                          UI/UX Review Check
-                      </h4>
-                      <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
-                          Because it&apos;s about motivating the doers. Because I&apos;m here to follow my dreams and inspire others.
+                  <div className="p-6 h-60 ">
+                      <label className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                          {project.name}
+                      </label>
+                      <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed ">
+                          {project.description}
                       </p>
                   </div>
-                  <div className="flex items-center justify-between p-6">
+                  <div className="h-10 flex items-center justify-between p-6">
                       <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
-                          January 10
+                          {project.techstack}
                       </p>
                   </div>
               </div>

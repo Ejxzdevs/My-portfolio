@@ -159,9 +159,21 @@
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
-.projectContainer img {
-  height: 180px;
+.projectContainer .cardContainer {
+  height: auto;
+  width: 330px;
+}
+.projectContainer .cardContainer img {
+  height: 200px;
   width: 100%;
   padding: 1rem;
+}
+.projectContainer .cardContainer label {
+  font-size: 1.3rem;
+}
+.projectContainer .cardContainer p {
+  font-size: 12px;
 }/*# sourceMappingURL=component.module.css.map */
