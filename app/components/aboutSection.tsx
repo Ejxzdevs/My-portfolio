@@ -28,7 +28,7 @@ function AboutSection() {
              />
           </div>
       </div>
-       <div className={`${styles.infoContainer} px-20 `}>
+       <div className={`${styles.infoContainer} py-20 px-10  sm:px-20 lg:px-20 `}>
           <h1>About Me</h1>
           <p>I have a Bachelor&apos;s degree in Information Systems and a strong passion for 
               programming and technology. I have hands-on experience in developing web 
