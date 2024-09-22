@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from './component.module.css';
 import Image from 'next/image';
 
+
 function AboutSection() {
  
   const [experiences, setExperieces] = useState<string>(` <label>Web Developer Intern</label>

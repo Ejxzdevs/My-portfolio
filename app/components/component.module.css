@@ -157,14 +157,12 @@
 
 .projectContainer {
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
 }
 .projectContainer .cardContainer {
-  height: auto;
   width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
 }
 .projectContainer .cardContainer img {
   height: 200px;
