@@ -26,6 +26,7 @@ const projects = {
 const projectSection = () => {
   return (
       <div id='projects' className={`${styles.projectContainer} min-h-screen`}>
+        
          {projects.items.map((project, index) => (
           <div className="max-w-[720px] ">
               <div className={` ${styles.cardContainer} relative flex flex-col overflow-hidden rounded-xl bg-customBg bg-clip-border text-white shadow-md `}>
@@ -55,6 +56,7 @@ const projectSection = () => {
               </div>
           </div>
             ))}
+
     </div>
   )
 }
