@@ -174,4 +174,15 @@
 }
 .projectContainer .cardContainer p {
   font-size: 12px;
+}
+
+.footerContainer {
+  padding-left: 3rem;
+}
+.footerContainer .icons {
+  border: grey 0.5px solid;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 5px;
 }/*# sourceMappingURL=component.module.css.map */
