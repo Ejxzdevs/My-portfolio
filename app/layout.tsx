@@ -8,6 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="dracula" className="scroll-smooth" lang="en" >
+      
       <body>
           {children}
       </body>

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap");
 .headerContainer {
   position: fixed;
   height: 60px;
@@ -7,14 +7,14 @@
   top: 0;
   padding-left: 5rem;
   padding-right: 8rem;
-  background-color: rgba(40, 42, 54, 0.5);
+  background-color: rgba(40, 42, 54, 0.8);
+  z-index: 10;
 }
-.headerContainer .Logo {
-  font-size: 1.5rem;
-  font-family: "Pacifico", cursive;
+.headerContainer div span {
+  font-family: "Jacquarda Bastarda 9", serif !important;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.3rem;
+  font-size: 2rem;
 }
 .headerContainer .nav {
   display: flex;
