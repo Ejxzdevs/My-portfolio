@@ -43,6 +43,7 @@ const Navbar = () => {
             lg:pr-20 
             lg:gap-5
             lg:bg-inherit
+            lg:w-4/5
             sm:flex
             sm:p-0 
             sm:justify-end 
@@ -50,6 +51,8 @@ const Navbar = () => {
             sm:pr-20 
             sm:gap-5
             sm:bg-inherit
+            sm:w-4/5
+           
          
             
             
