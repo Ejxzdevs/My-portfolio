@@ -1,22 +1,77 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react';
 import Link from 'next/link';
-import styles from './Navbar.module.css'
+
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false); // State to manage the toggle
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen); // Toggle the menu open/close
+  };
+
   return (
-    <header className={`${styles.headerContainer} grid grid-cols-2 lg:grid lg:grid-cols-2`} >
-      <div className='flex items-center'>
-        <Link href="#home" >
-          <span className={`${styles.logo}`}>Ejhay</span>
+    <header className="bg-customBg p-4 flex justify-between w-screen z-10 fixed ">
+      <div className="flex items-cente sm:pl-8 lg:pl-16">
+        <Link href="#home">
+          <span className="text-3xl font-bold tracking-wider font-logo">Ejhay</span>
         </Link>
       </div>
-      <nav className={`${styles.nav}`} >
-        <Link href="#about" className={`${styles.linkStyle} hidden sm:flex lg:flex`}>About</Link>
-        <Link href="#skills" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Services</Link>
-        <Link href="#projects" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Projects</Link>
-        <Link href="#contact" className={`${styles.linkStyle} hidden sm:flex lg:flex `}>Contact</Link>
+      <nav className="relative">
+        {/* Hamburger icon for small screens */}
+        <div className="block px-7 sm:hidden lg:hidden">
+          <button onClick={toggleMenu} className="focus:outline-none">
+            {isOpen ? (
+              <span className="text-2xl text-white">☰</span>
+            ) : (
+              <span className="text-2xl text-white ">☰</span>
+            )}
+          </button>
+        </div>
+
+        {/* Navigation links */}
+        <div
+          className={`
+            ${isOpen ? 'block' : 'hidden'}
+            
+        
+            bg-customBg
+            shadow-md  absolute right-0 p-6 w-screen z-50 
+            lg:flex lg:p-0 
+            lg:justify-end 
+            lg:shadow-none 
+            lg:pr-20 
+            lg:gap-5
+            lg:bg-inherit
+            sm:flex
+            sm:p-0 
+            sm:justify-end 
+            sm:shadow-none 
+            sm:pr-20 
+            sm:gap-5
+            sm:bg-inherit
+         
+            
+            
+            `}
+        >
+          <Link href="#about" className={`block px-2 py-1 text-white font-medium `}>
+            About
+          </Link>
+          <Link href="#skills" className={`block px-2 py-1 text-white font-medium`}>
+            Services
+          </Link>
+          <Link href="#projects" className={`block px-2 py-1 text-white font-medium`}>
+            Projects
+          </Link>
+          <Link href="#contact" className={`block px-2 py-1 text-white font-medium`}>
+            Contact
+          </Link>
+        </div>
       </nav>
     </header>
-)}
+  );
+};
 
-export default Navbar
+export default Navbar;
+

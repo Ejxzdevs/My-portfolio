@@ -3,6 +3,25 @@
 /* Profile components */
 .profileContainer {
   overflow: hidden;
+  --slide-in-animation: slideIn 1.7s ease-out forwards infinite;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .profileContainer .welcomeContainer {
   display: flex;

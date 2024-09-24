@@ -2,9 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Guerrilla&display=swap');
 
 
+
+
+
+
+
 /* Profile components */
 .profileContainer {
     overflow: hidden;
+    // variables
+        --slide-in-animation: slideIn 1.7s ease-out forwards infinite;
+    
+    // animation
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+    }
+    
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+    }
+
         
     & .welcomeContainer{
             display: flex;
@@ -12,13 +41,13 @@
             justify-content: center;
             gap: 1rem;
             padding: 5rem;
-            
-    
+        
             & h1{
                 font-size: 1.5rem;
                 margin-bottom: .2rem;
                 letter-spacing: 1px;
                 cursor: pointer;
+              
             }
 
             & label {
@@ -31,11 +60,14 @@
                 font-family: "Signika", sans-serif;
                 font-optical-sizing: auto;
                 cursor: pointer;
+            
             }
 
             .spanStyle{
                 color: #2af514;
+                
             }
+
             & p {
                 font-family: "Montserrat", sans-serif;
                 font-optical-sizing: auto;

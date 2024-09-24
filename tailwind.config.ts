@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,7 +13,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customBg: '#1A1C24',
+        navbarBg: 'rgba(40, 42, 54, 0.8)',
       },
+      fontFamily: {
+        'jacquarda': ['"Jacquarda Bastarda 9"', 'system-ui', 'sans-serif'],
+        'logo' : ['"Pacifico"', 'cursive'],
+      }
     },
     
     screens: {
