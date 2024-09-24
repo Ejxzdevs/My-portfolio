@@ -45,8 +45,8 @@ const icons = {
 const skillsSection = () => {
   return (
     <div id='skills' className={`${styles.skillsContainer} p-8 h-auto sm:h-screen lg:h-screen`} >
-      <div className={`${styles.techstackContainer} bg-customBg gap-8 place-items-center h-auto grid grid-cols-1 sm:gap-4 sm:grid sm:grid-cols-2 sm:bg-transparent lg:grid lg:grid-cols-2 lg:gap-4 lg:bg-transparent`} >
-          <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12 '>
+      <div className={`${styles.techstackContainer} bg-customBg gap-8 place-items-center h-auto grid grid-cols-1 sm:gap-x-44 sm:grid sm:grid-cols-2 sm:bg-transparent lg:grid lg:grid-cols-2 lg:gap-4 lg:bg-transparent`} >
+          <div className='h-60 w-96 sm:h-52 sm:w-72 lg:h-52 lg:w-10/12 '>
             <h1>Web Development</h1>
             <div>
             {icons.webDev.map((icon, index) => (
@@ -61,7 +61,7 @@ const skillsSection = () => {
             ))}
             </div>
           </div>
-          <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12  '>
+          <div className='h-60 w-96 sm:h-52 sm:w-72 lg:h-52 lg:w-10/12  '>
             <h1>tools & platform</h1>
             <div>
             {icons.TaP.map((icon, index) => (
@@ -77,13 +77,13 @@ const skillsSection = () => {
        
             </div>
           </div>
-          <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12  '>
+          <div className='h-60 w-96 sm:h-52 sm:w-72 lg:h-52 lg:w-10/12  '>
             <h1>Mobile Development</h1>
             <div>
        
             </div>
           </div>
-          <div className='h-60 w-96 sm:h-52 sm:w-60 lg:h-52 lg:w-10/12  '>
+          <div className='h-60 w-96 sm:h-52 sm:w-72 lg:h-52 lg:w-10/12  '>
             <h1>Desktop GUI & Console Based</h1>
             <div>
             {icons.DaC.map((icon, index) => (
