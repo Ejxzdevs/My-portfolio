@@ -24,7 +24,7 @@ const footer = () => {
             <nav className='flex flex-col'>
                 <h6 className="footer-title">Social Media</h6>
                 <div className='flex flex-row gap-2'>
-                    <a className="link link-hover">
+                    <a href='https://www.facebook.com/IzoneGgbyt/' className="link link-hover">
                     <Image
                         src="/icons/Socmed/Facebook.png"
                         alt='Facebook'
@@ -33,37 +33,19 @@ const footer = () => {
                         className={`${styles.icons}`}
                         />
                     </a>
-                    <a className="link link-hover">
-                    <Image
-                        src="/icons/Socmed/LinkedIn.png"
-                        alt='LinkedIn'
-                        width={30}
-                        height={30}
-                        className={`${styles.icons}`}
-                        />
-                    </a>
-                    <a className="link link-hover">
-                    <Image
-                        src="/icons/Socmed/Github.png"
-                        alt='Github'
-                        width={30}
-                        height={30}
-                        className={`${styles.icons}`}
-                        />
-                    </a>
-                    <a className="link link-hover">
-                    <Image
-                        src="/icons/Socmed/Gmail.png"
-                        alt='Gmail'
-                        width={30}
-                        height={30}
-                        className={`${styles.icons}`}
-                        />
-                    </a>
-                    <a className="link link-hover">
+                    <a href='https://www.instagram.com/ejhayzxx' className="link link-hover">
                     <Image
                         src="/icons/Socmed/Instagram.png"
                         alt='Instagram'
+                        width={30}
+                        height={30}
+                        className={`${styles.icons}`}
+                        />
+                    </a>
+                    <a href='https://www.linkedin.com/in/john-erick-gofredo-253304329/' className="link link-hover">
+                    <Image
+                        src="/icons/Socmed/linkedIn.png"
+                        alt='LinkedIn'
                         width={30}
                         height={30}
                         className={`${styles.icons}`}
