@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './component.module.css';
 import Image from 'next/image';
 
-
 const icons = {
   webDev: [
     { src: '/icons/Webdev/html.png', alt: 'HTML' },
