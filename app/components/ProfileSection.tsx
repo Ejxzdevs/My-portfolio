@@ -9,11 +9,9 @@ const profileSection = () => {
           <div className={ `${styles.welcomeContainer} order-2 sm:order-1 lg:order-1`} >
             <h1 className={ `${styles.forte} `} >Web Developer</h1>
             <label className='text-3xl'><span><span className={styles.spanStyle} >Hello</span> I&apos;m</span><strong>Ejhay Gofredo</strong></label>
-            <p>I have a Bachelor&apos;s degree in Information Systems and a strong passion for 
-              programming and technology. I have hancds-on experience in developing web 
-              systems and working on various projects.</p>
+            <p>I am a web developer focused on creating dynamic, efficient, and scalable solutions for every project I work on.</p>
           </div>
-          <div className={ `${styles.imageContainer} order-1 sm:lg:order-2 lg:order-2 flex items-center justify-center`} >
+          <div className={ `${styles.imageContainer} order-1 pt-16 sm:pt-0 lg:pt-0 sm:lg:order-2 lg:order-2 flex items-center justify-center`} >
               <Image
                 src="/anime.jpg"
                 alt='my image'
