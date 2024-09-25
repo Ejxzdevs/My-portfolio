@@ -15,7 +15,7 @@ function AboutSection() {
   };
   return (
    
-    <div data-aos="fade-down" id='about'  className={`${styles.aboutContainer} h-auto grid grid-cols-1 sm:grid sm:grid-cols-2 sm:h-screen lg:grid lg:grid-cols-2 lg:h-screen`}>
+    <div  id='about'  className={`${styles.aboutContainer} h-auto grid grid-cols-1 sm:grid sm:grid-cols-2 sm:h-screen lg:grid lg:grid-cols-2 lg:h-screen`}>
       <div className={ `${styles.aboutProfileContainer} p-10 flex items-center sm:flex sm:items-center sm:p-0 lg:flex lg:items-center lg:p-0 `}>
           <div className={`${styles.imgAboutContainer} bg-customBg p-8 h-auto sm:p-0 sm:h-72 sm:pl-8 sm:bg-transparent lg:h-96 lg:mt-5 lg:bg-transparent lg:p-0 `}>
           <Image
@@ -28,7 +28,7 @@ function AboutSection() {
              />
           </div>
       </div>
-       <div className={`${styles.infoContainer} py-20 px-10  sm:px-20 lg:px-20 `}>
+       <div data-aos="fade-down" className={`${styles.infoContainer} py-20 px-10  sm:px-20 lg:px-20 `}>
           <h1 >About Me</h1>
           <p>I graduated with a Bachelor of Science in Information Systems. I have hands-on experience in web development during my internship and also served as a team leader in my capstone project, fulfilling the roles of project manager and full-stack developer.</p>
           <div>
