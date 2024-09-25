@@ -88,7 +88,7 @@ const ProjectSection = () => {
         {projects.items.map((project, index) => (
           <SwiperSlide key={index}
          >
-            <div
+            <div data-aos="flip-up"
               className={` ${styles.cardContainer}   relative flex flex-col overflow-hidden rounded-xl bg-customBg bg-clip-border text-white shadow-md `}
             >
               <div className="relative">
