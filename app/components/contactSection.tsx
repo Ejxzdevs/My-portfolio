@@ -7,11 +7,24 @@ const contactSection = () => {
         
         <section id="contact" className="py-16 flex justify-center items-center flex-col ">
           <div className="container mx-auto text-center ">
-            <h2 className="text-4xl font-bold mb-8 text-white">Contact Us</h2>
-            <p className="text-lg text-gray-300 mb-12">Feel free to reach out via any of the platforms below!</p>
+            <h2 
+            data-aos="zoom"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-sine"
+            className="text-4xl font-bold mb-8 text-white">Contact Us</h2>
+            <p
+             data-aos="zoom"
+             data-aos-delay="100"
+             data-aos-easing="ease-in-sine"
+            className="text-lg text-gray-300 mb-12">Feel free to reach out via any of the platforms below!</p>
             <div className="flex flex-row justify-center items-center gap-8 flex-wrap  ">
 
-              <div className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
+              <div 
+              data-aos="fade-right"
+              data-aos-delay="1000"
+              data-aos-easing="ease-in-sine"
+
+              className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
                   <a href="https://www.instagram.com/ejhayzxx" target="_blank" className="min-h-20 w-52 flex flex-row gap-2 justify-center items-center bg-gray-800 rounded-lg shadow-lg">
                   <Image
                           src="/icons/Socmed/Instagram.png"
@@ -23,7 +36,12 @@ const contactSection = () => {
                   </a>
                 </div>
 
-                <div className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
+                <div 
+                data-aos="fade-right"
+                data-aos-delay="750"
+                data-aos-easing="ease-in-sine"
+                
+                className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=johnerickgofredo163@gmail.com&su=Hello%20Ejhay" target="_blank" className="min-h-20 w-52 flex flex-row gap-2 justify-center items-center bg-gray-800 rounded-lg shadow-lg">
                   <Image
                           src="/icons/Socmed/Gmail.png"
@@ -35,7 +53,11 @@ const contactSection = () => {
                   </a>
                 </div>
 
-                <div className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
+                <div 
+                    data-aos="fade-right"
+                    data-aos-delay="550"
+                    data-aos-easing="ease-in-sine"
+                className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
                   <a href="https://www.facebook.com/IzoneGgbyt/" target="_blank" className="min-h-20 w-52 flex flex-row gap-2 justify-center items-center bg-gray-800 rounded-lg shadow-lg">
                   <Image
                           src="/icons/Socmed/Facebook.png"
@@ -47,7 +69,11 @@ const contactSection = () => {
                   </a>
                 </div>
                 
-                <div className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
+                <div 
+                data-aos="fade-right"
+                data-aos-delay="350"
+                data-aos-easing="ease-in-sine"
+                className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
                   <a href="https://github.com/Ejxzdevs" target="_blank" className="min-h-20 w-52 flex flex-row gap-2 justify-center items-center bg-gray-800 rounded-lg shadow-lg">
                   <Image
                           src="/icons/Socmed/Github.png"
@@ -59,7 +85,9 @@ const contactSection = () => {
                   </a>
                 </div>
 
-                <div className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
+                <div  data-aos="fade-right"
+                      data-aos-delay="100"
+                      data-aos-easing="ease-in-sine" className="contact-item transform hover:scale-105 transition duration-300 ease-in-out">
                   <a href="https://www.linkedin.com/in/john-erick-gofredo-253304329/" target="_blank" className="min-h-20 w-52 flex flex-row gap-2 justify-center items-center bg-gray-800 rounded-lg shadow-lg">
                   <Image
                           src="/icons/Socmed/LinkedIn.png"
