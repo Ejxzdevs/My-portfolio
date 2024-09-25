@@ -5,8 +5,8 @@ const contactSection = () => {
   return (
     <div id='contact' className='h-auto px-10  grid grid-cols-1 sm:grid sm:grid-cols-1 sm:h-screen lg:grid lg:grid-cols-1 lg:h-screen'>
         
-        <section id="contact" className="py-16 ">
-          <div className="container mx-auto text-center">
+        <section id="contact" className="py-16 flex justify-center items-center flex-col ">
+          <div className="container mx-auto text-center ">
             <h2 className="text-4xl font-bold mb-8 text-white">Contact Us</h2>
             <p className="text-lg text-gray-300 mb-12">Feel free to reach out via any of the platforms below!</p>
             <div className="flex flex-row justify-center items-center gap-8 flex-wrap  ">
