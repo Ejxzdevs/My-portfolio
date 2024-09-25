@@ -4,16 +4,16 @@ import Image from 'next/image';
 
 const icons = {
   webDev: [
-    { src: '/icons/Webdev/html.png', alt: 'HTML' },
-    { src: '/icons/Webdev/css.png', alt: 'CSS' },
-    { src: '/icons/Webdev/php.png', alt: 'php' },
-    { src: '/icons/Webdev/js.png', alt: 'JavaScript' },
-    { src: '/icons/Webdev/sass.png', alt: 'sass' },
-    { src: '/icons/Webdev/bootstrap.png', alt: 'bootstrap' },
-    { src: '/icons/Webdev/tailwind.png', alt: 'tailwind' },
-    { src: '/icons/Webdev/laravel.png', alt: 'laravel' },
-    { src: '/icons/Webdev/react.png', alt: 'react' },
-    { src: '/icons/Webdev/mysql.png', alt: 'mysql' },
+    { src: '/icons/WebDev/html.png', alt: 'HTML' },
+    { src: '/icons/WebDev/css.png', alt: 'CSS' },
+    { src: '/icons/WebDev/php.png', alt: 'php' },
+    { src: '/icons/WebDev/js.png', alt: 'JavaScript' },
+    { src: '/icons/WebDev/sass.png', alt: 'sass' },
+    { src: '/icons/WebDev/bootstrap.png', alt: 'bootstrap' },
+    { src: '/icons/WebDev/tailwind.png', alt: 'tailwind' },
+    { src: '/icons/WebDev/laravel.png', alt: 'laravel' },
+    { src: '/icons/WebDev/react.png', alt: 'react' },
+    { src: '/icons/WebDev/mysql.png', alt: 'mysql' },
    
   ],
   mobileDev: [
