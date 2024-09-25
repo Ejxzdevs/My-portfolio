@@ -8,7 +8,7 @@ import Image from 'next/image';
 const profileSection = () => {
   return (
         <div id='home' className= {`${styles.profileContainer} py-8 grid grid-cols-1 h-auto sm:grid sm:grid-cols-2 sm:h-screen lg:grid lg:grid-cols-2 lg:h-screen`}>
-          <div className={ `${styles.welcomeContainer} order-2 sm:order-1 lg:order-1`} >
+          <div data-aos="fade-right" className={ `${styles.welcomeContainer} order-2 sm:order-1 lg:order-1`} >
             <h1 className={ `${styles.forte} `} >
             Web Developer.          
             </h1>
@@ -17,7 +17,8 @@ const profileSection = () => {
           </div>
           <div className={ `${styles.imageContainer} order-1 pt-16 sm:pt-0 lg:pt-0 sm:lg:order-2 lg:order-2 flex items-center justify-center`} >
                 <Image
-           
+                  data-aos="flip-up"
+                  data-aos-delay="100"
                   src="/anime.jpg"
                   alt='my image'
                   width={220}
